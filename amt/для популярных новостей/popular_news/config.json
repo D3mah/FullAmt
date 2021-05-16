@@ -1,0 +1,52 @@
+{
+    "name": "PopularNews",
+    "description": "Популярные записи на главной",
+    "authors": [
+        {
+            "name": "Dmitriy Kolmakov",
+            "email": "admin@webhelp4you.ru"
+        }
+    ],
+    "config": {
+				"title" : "",
+        "shorten_title": {
+						"active": false,
+						"length": 25,
+            "words": false
+        },
+        "post-excerpt": {
+						"active": true,
+						"length": 15,
+						"keep_format": false,
+            "words": true
+        },
+        "thumbnail": {
+						"active": true,
+						"build": "manual",
+            "width": 512,
+						"height": 300,
+						"crop": true
+        },
+        "rating": false,
+        "stats_tag": {
+            "comment_count": true,
+            "views": true,
+            "author": false,
+            "date": {
+                "active": false,
+                "format": "j F, Y"
+            },
+            "taxonomy": {
+                "active": true,
+                "name": "category"
+            }
+        },
+        "markup": {
+            "wpp-start": "",
+            "wpp-end": "",
+							"post-html": "<li><div class=\"uk-card uk-card-default\"><div class=\"uk-card-media-top\"><a href=\"{url}\"><div class=\"uk-inline-clip uk-transition-toggle\" tabindex=\"0\"><img class=\"uk-transition-scale-up uk-transition-opaque\" data-src=\"{thumb_url}\" src=\"{thumb_url}\" uk-img><div class=\"uk-position-center\"><span class=\"uk-transition-fade uk-icon\" uk-icon=\"icon: plus; ratio: 2\"><svg width=\"40\" height=\"40\" viewBox=\"0 0 20 20\" xmlns=\"http://www.w3.org/2000/svg\" data-svg=\"plus\"><rect x=\"9\" y=\"1\" width=\"1\" height=\"17\"></rect><rect x=\"1\" y=\"9\" width=\"17\" height=\"1\"></rect></svg></span></div></div></a></div><div class=\"uk-card-badge uk-label uk-label-warning\">{date}</div><div class=\"uk-card-body cardtheme\"><h3 class=\"uk-card-title\">{title}</h3><p>{excerpt}</p></div><div class=\"uk-card-footer\"><div class=\"uk-flex uk-flex-between s-span\"><span class=\"views\">Просмотров: {views} </span><a href=\"{url}\" class=\"uk-button uk-button-primary uk-text-right s-link\"><span>Подробнее</span></a></div></div></div></li>"
+			
+					
+					}
+    }
+}

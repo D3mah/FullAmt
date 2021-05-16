@@ -1,0 +1,429 @@
+table .column-2 a[href^="http://"]:not([data-lightbox-type="image"])::before,
+
+table .column-2 a[href^="https://"]:not([data-lightbox-type="image"])::before,
+
+.page_content a[href^="http://"]:not([data-lightbox-type="image"])::before,
+
+.page_content a[href^="https://"]:not([data-lightbox-type="image"])::before,
+
+.r-column a[href^="http://"]:not([data-lightbox-type="image"])::before,
+
+.r-column a[href^="https://"]:not([data-lightbox-type="image"])::before
+
+ {
+
+	content: "" ;
+
+	background: url('../img/icons/link.svg') no-repeat center;
+
+	display: inline-block;
+
+	margin-inline-end: 5px;
+
+	margin-right: 5px;
+
+	width: 25px;
+
+	block-size: 25px;
+
+	height: 25px;
+
+	inline-size: 25px;
+
+}
+
+a[href$=".pdf"]::before, 
+
+a[href$=".PDF"]::before {
+
+	content: "" ;
+
+	background: url('../img/icons/pdf.svg') no-repeat center;
+
+	display: inline-block;
+
+	margin-inline-end: 5px;
+
+	margin-right: 5px;
+
+	width: 25px;
+
+	block-size: 25px;
+
+	height: 25px;
+
+	inline-size: 25px;
+
+}
+
+a[href$=".xls"]::before, 
+
+a[href$=".XLS"]::before,
+
+a[href$=".xlsx"]::before,
+
+a[href$=".XLSX"]::before {
+
+	content: "" ;
+
+	background: url('../img/icons/excel.svg') no-repeat center;
+
+	display: inline-block;
+
+	margin-inline-end: 5px;
+
+	margin-right: 5px;
+
+	width: 25px;
+
+	block-size: 25px;
+
+	height: 25px;
+
+	inline-size: 25px;
+
+}
+
+a[href$=".doc"]::before, 
+
+a[href$=".DOC"]::before,
+
+a[href$=".docx"]::before,
+
+a[href$=".DOCX"]::before,
+
+a[href$=".rtf"]::before,
+
+a[href$=".RTF"]::before {
+
+	content: "" ;
+
+	background: url('../img/icons/word.svg') no-repeat center;
+
+	display: inline-block;
+
+	margin-inline-end: 5px;
+
+	margin-right: 5px;
+
+	width: 25px;
+
+	block-size: 25px;
+
+	height: 25px;
+
+	inline-size: 25px;
+
+}
+
+
+
+a[href$=".ppt"]::before, 
+
+a[href$=".pptx"]::before,
+
+a[href$=".PPT"]::before,
+
+a[href$=".PPTX"]::before {
+
+	content: "" ;
+
+	background: url('../img/icons/powerpoint.svg') no-repeat center;
+
+	display: inline-block;
+
+	margin-inline-end: 5px;
+
+	margin-right: 5px;
+
+	width: 25px;
+
+	block-size: 25px;
+
+	height: 25px;
+
+	inline-size: 25px;
+
+}
+
+a[href$=".rar"]::before, 
+
+a[href$=".RAR"]::before,
+
+a[href$=".zip"]::before,
+
+a[href$=".ZIP"]::before,
+
+a[href$=".7z"]::before,
+
+a[href$=".7Z"]::before {
+
+	content: "" ;
+
+	background: url('../img/icons/archive.svg') no-repeat center;
+
+	display: inline-block;
+
+	margin-inline-end: 5px;
+
+	margin-right: 5px;
+
+	width: 25px;
+
+	block-size: 25px;
+
+	height: 25px;
+
+	inline-size: 25px;
+
+}
+
+a[href$=".ai"]::before, 
+
+a[href$=".AI"]::before {
+
+	content: "" ;
+
+	background: url('../img/icons/ai.svg') no-repeat center;
+
+	display: inline-block;
+
+	margin-inline-end: 5px;
+
+	margin-right: 5px;
+
+	width: 25px;
+
+	block-size: 25px;
+
+	height: 25px;
+
+	inline-size: 25px;
+
+}
+
+a[href$=".jpg"]:not([data-lightbox-type="image"])::before, 
+
+a[href$=".JPG"]:not([data-lightbox-type="image"])::before,
+
+a[href$=".jpeg"]:not([data-lightbox-type="image"])::before,
+
+a[href$=".JPEG"]:not([data-lightbox-type="image"])::before,
+
+a[href$=".png"]:not([data-lightbox-type="image"])::before,
+
+a[href$=".PNG"]:not([data-lightbox-type="image"])::before{
+
+	content: "" ;
+
+	background: url('../img/icons/image.svg') no-repeat center;
+
+	display: inline-block;
+
+	margin-inline-end: 5px;
+
+	margin-right: 5px;
+
+	width: 25px;
+
+	block-size: 25px;
+
+	height: 25px;
+
+	inline-size: 25px;
+
+}
+
+.jp-carousel-image-download::before {
+
+ display: none!important;
+
+}
+
+a[href$=".mp3"]::before, 
+
+a[href$=".MP3"]::before,
+
+a[href$=".ac3"]::before,
+
+a[href$=".AC3"]::before,
+
+a[href$=".aif"]::before,
+
+a[href$=".AIF"]::before,
+
+a[href$=".amr"]::before, 
+
+a[href$=".AMR"]::before,
+
+a[href$=".iff"]::before,
+
+a[href$=".IFF"]::before,
+
+a[href$=".m3u"]::before,
+
+a[href$=".M3U"]::before,
+
+a[href$=".m4a"]::before,
+
+a[href$=".M4A"]::before,
+
+a[href$=".mpa"]::before,
+
+a[href$=".MPA"]::before
+
+a[href$=".ogg"]::before,
+
+a[href$=".OGG"]::before,
+
+a[href$=".wav"]::before,
+
+a[href$=".WAV"]::before {
+
+	content: "" ;
+
+	background: url('../img/icons/music.svg') no-repeat center;
+
+	display: inline-block;
+
+	margin-inline-end: 5px;
+
+	margin-right: 5px;
+
+	width: 25px;
+
+	block-size: 25px;
+
+	height: 25px;
+
+	inline-size: 25px;
+
+}
+
+a[href$=".3gp"]::before, 
+
+a[href$=".3GP"]::before,
+
+a[href$=".avi"]::before,
+
+a[href$=".AVI"]::before,
+
+a[href$=".m4v"]::before,
+
+a[href$=".M4V"]::before,
+
+a[href$=".mp4"]::before, 
+
+a[href$=".MP4"]::before,
+
+a[href$=".mpeg"]::before,
+
+a[href$=".MPEG"]::before,
+
+a[href$=".m3u"]::before,
+
+a[href$=".webm"]::before,
+
+a[href$=".WEBM"]::before,
+
+a[href$=".wmv"]::before,
+
+a[href$=".WMV"]::before {
+
+	content: "" ;
+
+	background: url('../img/icons/video.svg') no-repeat center;
+
+	display: inline-block;
+
+	margin-inline-end: 5px;
+
+	margin-right: 5px;
+
+	width: 25px;
+
+	block-size: 25px;
+
+	height: 25px;
+
+	inline-size: 25px;
+
+}
+
+
+
+/* Для меню с иконками */
+
+.bottom-icon .security  a::before, .bottom-icon .help  a::before, 
+
+.bottom-icon .work  a::before, .bottom-icon .book  a::before,
+
+.bottom-icon .contact  a::before, .bottom-icon .imp  a::before,
+
+.bottom-icon .education  a::before {
+
+	text-align: center;
+
+	font: normal normal normal 44px/1 FontAwesome;
+
+	margin: 0px 10px;
+
+	color: var(--text-news)!important
+
+}
+
+.bottom-icon .security  a::before {
+
+	display: block;
+
+	content: "\f505";
+
+}
+
+.bottom-icon .help  a::before {
+
+	display: block;
+
+	content: "\f4c4";
+
+}
+
+.bottom-icon .work  a::before {
+
+	display: block;
+
+	content: "\f0b1";
+
+}
+
+.bottom-icon .book  a::before {
+
+	display: block;
+
+	content: "\f518";
+
+}
+
+.bottom-icon .contact  a::before {
+
+	display: block;
+
+	content: "\f2bb";
+
+}
+
+.bottom-icon .imp  a::before {
+
+	display: block;
+
+	content: "\f071";
+
+}
+
+.bottom-icon .education  a::before {
+
+	display: block;
+
+	content: "\f19d";
+
+}
